@@ -6,9 +6,9 @@ use Getopt::Std;
 
 my %opts = ();
 getopts('n:',\%opts);
-
 my $nivel = $opts{n} || 3;
 
+# Main 
 carpete($nivel);
 
 ######################################################################
